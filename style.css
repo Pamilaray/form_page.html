@@ -1,0 +1,92 @@
+body{
+    background-color: rgb(61, 158, 177);
+}
+.nav-bar{
+    display: flex;
+    flex-direction: row;/*used to set the main axis */
+    justify-content: space-around;/*used to set arrangement of elements in main axis*/
+    align-items: center;
+    height: 10vh;
+}
+.nav-list{
+    display: flex;
+    flex-direction: row;
+}
+.nav-bar a{
+    font-size: 28px;
+    color: white;
+    text-decoration: none;
+}
+.nav-list a{
+    margin-right: 22px;
+
+}
+.nav-list button{
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(61, 158, 177);
+    border:1px solid #aaa;
+    padding: 3px 5px;
+    font-size: 18px;
+}
+.rest-of-page{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 100px;
+    width: 90vw;
+    height: 80vh;
+}
+.left, .right{
+    width: 5%;
+    /* border: 1px solid black; */
+    text-align: center;
+    width: 400px;
+    margin-left: 50px;
+}
+.left{
+    padding-left: 10%;
+    text-align: left;
+    margin-right: 90px;
+    color: white;
+    margin-left: 120px;
+}
+.left button{
+    background-color: rgb(99, 57, 195);
+    color: white;
+    width: 30%;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid whitesmoke;
+    background-color: aliceblue;
+    width: 300px;
+    height: 270px;
+    /* padding-left: 10px;
+    padding-right:10px; */
+    margin-left: 100px;
+}
+.right input{
+    width: 200px;
+    margin-bottom: 10px;
+    height: 25px;
+    padding: 3px 5px;
+    border: none;
+}
+.right select, .right button{
+    width: 212px;
+    margin-bottom: 10px;
+    height: 25px;
+    padding: 5px 5px;
+    border: none;
+}
+.right button{
+    background-color: rgb(81, 120, 226);
+    color: white;
+    border-radius: 20px;
+}
